@@ -1,0 +1,27 @@
+.join-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    overflow-y: auto;
+    margin: auto;
+    width: 80%;
+}
+
+.field {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;  /* Adjust based on your preference */
+}
+
+.options {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    width: 100%;  /* This ensures the child elements are centered within the options container */
+}
